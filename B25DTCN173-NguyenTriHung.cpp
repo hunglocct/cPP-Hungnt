@@ -269,6 +269,8 @@ void subMenu(Manager* manager) {
     } while (choice != 0);
 }
 
+
+
 //main
 int main() {
     ClassroomManager classroomManager;
@@ -276,7 +278,7 @@ int main() {
     int choice;
 
     do {
-        cout << "\n=== HE THONG RIKKEI EDU ===";
+        cout << "\nHE THONG RIKKEI EDU";
         cout << "\n1. Quan ly lop hoc";
         cout << "\n2. Quan ly sinh vien";
         cout << "\n0. Thoat";
@@ -286,7 +288,14 @@ int main() {
         if (choice == 1) subMenu(&classroomManager);
         else if (choice == 2) subMenu(&studentManager);
 		else cout << "\nChon lai sai roi!!!!!: ";
+		
+		
     } while (choice != 0);
+
+
+
+
+
 
     return 0;
 }
