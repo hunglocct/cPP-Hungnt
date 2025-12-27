@@ -264,7 +264,7 @@ void subMenu(Manager* manager) {
         else if (choice == 2) manager->add();
         else if (choice == 3) manager->remove();
         else if (choice == 4) manager->update();
-		else cout << "\nChon lai sai roi!!!!!: ";
+		else cout << "\nChon lai sai roi!!!!!\n";
 
     } while (choice != 0);
 }
@@ -287,7 +287,7 @@ int main() {
 
         if (choice == 1) subMenu(&classroomManager);
         else if (choice == 2) subMenu(&studentManager);
-		else cout << "\nChon lai sai roi!!!!!: ";
+		else cout << "\nChon lai sai roi!!!!!\n";
 		
 		
     } while (choice != 0);
